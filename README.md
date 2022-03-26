@@ -1,5 +1,5 @@
 # dChat
-This is a *decentralized*, *peer to peer*, *chatting application*, that is using ***GunDB*** and is powered by ***Moralis.io***!
+This is a *decentralized*, *peer to peer*, *chatting application*, that is using [***GunDB***](https://gun.eco/) for it's database and is powered by [***Moralis.io***](https://moralis.io/)!
 
 The frontend of this web application is built using ***React JS*** and the backend is built using ***Node***. 
 
@@ -14,4 +14,10 @@ You can chat with your friends freely, without worrying that someone might be sp
 
 ![Chat Image-1](https://i.postimg.cc/52r748Sr/Screenshot-888.png)
 ![Chat Image-1](https://i.postimg.cc/2S1GKVN7/Screenshot-889.png)
+
+You can add your friends using their Ethereum Addresses!
+
+![Add Friend](https://i.postimg.cc/tJ7n4n5r/Screenshot-890.png)
+
+![Chat Image-3](https://i.postimg.cc/g23XjWVP/Screenshot-891.png)
 
