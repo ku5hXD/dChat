@@ -17,7 +17,7 @@ You can chat with your friends freely, without worrying that someone might be sp
 ![Chat Image-1](https://i.postimg.cc/52r748Sr/Screenshot-888.png)
 ![Chat Image-1](https://i.postimg.cc/2S1GKVN7/Screenshot-889.png)
 
-You can add your friends using their Ethereum Addresses!
+You can add your friends using their Ethereum Address!
 
 ![Add Friend](https://i.postimg.cc/tJ7n4n5r/Screenshot-890.png)
 
