@@ -1,5 +1,6 @@
 # dChat 
-[DEMO](https://dchatapp.netlify.app/)
+[demo](https://dchatapp.netlify.app/)
+
 This is a *decentralized*, *peer to peer*, *chatting application*, that is using [***GunDB***](https://gun.eco/) for it's database and is powered by [***Moralis.io***](https://moralis.io/)!
 
 The frontend of this web application is built using ***React JS*** and the backend is built using ***Node***. 
