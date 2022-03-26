@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "gun": "^0.2020.1235",
+    "moralis": "^0.0.154",
+    "nodemon": "^2.0.15"
+  }
+}

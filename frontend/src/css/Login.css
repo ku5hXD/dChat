@@ -1,0 +1,243 @@
+/* @import url('http://fonts.cdnfonts.com/css/pixeboy');
+@import url('http://fonts.cdnfonts.com/css/pixellari'); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#7c37fd, blue);
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;   
+}
+
+.mainTitle {
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 100px;      
+    margin: 3.5%;  
+    margin-bottom: 0;
+    margin-top: 4%;
+    color: white;   
+    font-weight: 400;
+}
+
+.dOfdChat {
+    font-family: 'Pixellari', sans-serif;
+    font-size: 73px;    
+    color: white;   
+    font-weight: 400;
+}
+
+.appInformation {
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 40px; 
+    color: white;   
+    font-weight: 400;
+}
+
+.loginDiv {
+    background-color: white;
+    height: 22rem;
+    width: 29rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: -10px 10px #ffd75e;
+    transition:  0.3s ease-in-out;
+}
+
+.loginDiv:hover {
+    box-shadow:  0px 0px #ffd75e;
+    transition:  0.3s ease-in-out;
+}
+
+.loginDivTopPart {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem ; 
+    margin-bottom: 0.5rem; 
+    margin-left: 1.5rem;   
+}
+
+.textLogin {
+    flex: 70;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hrInsideTheLoginDiv {
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.svgImageInsideLoginDiv {
+    flex: 30;
+}
+
+.walletConnectinsideLoginDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.connectYourWalletText {
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 45px;
+}
+
+.WalletConnectedText {
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 45px;
+    margin-top: -25px;
+    margin-bottom: 1rem;
+}
+
+.currentUserAddressAndIdenticon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0.5rem;
+    left: 61rem;
+}
+
+.currentUserAddress {
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 25px;
+}
+
+.currentUserIdenticon {
+    margin-right: 1rem;
+    background-color: rgb(83, 83, 83);
+}
+
+.metamaskConnectButton {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    margin-top: 2.5rem;
+    width: 20rem;
+    height: 3rem;
+    background-color: #f76863;
+    border: 0;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 2rem;
+    color: white;
+    box-shadow:
+    -6px 6px 0 0px white,
+    -8px 4px 0 0px #f76863,
+    -8px 8px 0 0px #f76863,
+    -4px 8px 0 0px #f76863;
+    transition:  0.3s ease-in-out;
+}
+
+.metamaskConnectButton:hover {
+    box-shadow:  0px 0px white;
+    transition:  0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.metamaskClickToStartButton {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    margin-top: 1.75rem;
+    width: 20rem;
+    height: 3rem;
+    background-color: #f76863;
+    border: 0;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 2rem;
+    color: white;
+    box-shadow:
+    -6px 6px 0 0px white,
+    -8px 4px 0 0px #f76863,
+    -8px 8px 0 0px #f76863,
+    -4px 8px 0 0px #f76863;
+    transition:  0.3s ease-in-out;
+}
+
+.metamaskClickToStartButton:hover {
+    box-shadow:  0px 0px white;
+    transition:  0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nameInputField {
+    width: 15rem;
+    padding: 0.4rem;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 1.25rem;
+}
+
+.metamaskDownloadButton {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    margin-top: 2.5rem;
+    width: 20rem;
+    height: 3rem;
+    background-color: #f76863;
+    border: 0;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    box-shadow:
+    -6px 6px 0 0px white,
+    -8px 4px 0 0px #f76863,
+    -8px 8px 0 0px #f76863,
+    -4px 8px 0 0px #f76863;
+    transition:  0.3s ease-in-out;
+}
+
+.metamaskDownloadButton:hover {
+    box-shadow:  0px 0px white;
+    transition:  0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.metamaskLogo {
+    height: 110%;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+
+.downloadMetamaskText {
+    text-decoration: none;
+    color: black;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 3.25rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+}
+
+.downloadMetamaskTextButton {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 1.3rem;
+    background-image: linear-gradient(#ffafbd , #ffc3a0);
+    padding: 0.1rem;
+    border: black;
+    border-width: 1.5px;
+    border-style: solid;
+    transition:  0.3s ease-in-out;
+}
+
+.downloadMetamaskTextButton:hover {
+    background-image: linear-gradient(#ffc3a0, #ffafbd);
+    transition:  0.3s ease-in-out;
+    font-size: 1.4rem;
+}
