@@ -73,11 +73,11 @@ export const Dashboard = () => {
 
     useEffect(() => {
 
-        gun.get(process.env.REACT_APP_MAIN_DB_NAME).put({ null: null })         // this is for first user entering our website  // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
+        gun.get("pGwuSPniR4148YpHNrvK0xgN").put({ null: null })         // this is for first user entering our website  // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
         gun.get(currentUser + 'friends').put({ null: null })                         // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
         gun.get(currentUser + 'messagesdbnames').put({ null: null })
 
-        gun.get(process.env.REACT_APP_MAIN_DB_NAME).once(data => {
+        gun.get("pGwuSPniR4148YpHNrvK0xgN").once(data => {
             setCurrentUserName(data[currentUser])
         })
 
@@ -151,7 +151,7 @@ export const Dashboard = () => {
                 alert('Friend already exists!!')
             }
             else {
-                gun.get(process.env.REACT_APP_MAIN_DB_NAME).once(data => {
+                gun.get("pGwuSPniR4148YpHNrvK0xgN").once(data => {
                     let userExists = false;
                     for (const prop in data) {
                         if (friendSearch === prop) {
@@ -190,7 +190,7 @@ export const Dashboard = () => {
             // gun.get(md5(currentUser + friendSearch))
             // gun.get(currentUser + 'friends').once(data => console.log(data))
             // gun.get(currentUser + 'messagesdbnames').once(data => console.log(data))
-            // gun.get(process.env.REACT_APP_MAIN_DB_NAME).once(data => console.log(data))
+            // gun.get("pGwuSPniR4148YpHNrvK0xgN").once(data => console.log(data))
         }
     }
 

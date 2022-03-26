@@ -25,7 +25,7 @@ const Login = () => {
 
     useEffect(() => {
 
-        gun.get(process.env.REACT_APP_MAIN_DB_NAME).put({ null: null })           // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
+        gun.get("pGwuSPniR4148YpHNrvK0xgN").put({ null: null })           // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
         gun.get(currentUser + 'friends').put({ null: null })                         // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
         gun.get(currentUser + 'messagesdbnames').put({ null: null })
 
@@ -61,7 +61,7 @@ const Login = () => {
             await authenticate()                    // this sends the information of the metamask account to the Moralis Database
             const data = {}
             data[currentUser] = name
-            gun.get(process.env.REACT_APP_MAIN_DB_NAME).put(data)               // storing the name of users with respect to their address, process.env.REACT_APP_MAIN_DB_NAME is the name of the node
+            gun.get("pGwuSPniR4148YpHNrvK0xgN").put(data)               // storing the name of users with respect to their address, "pGwuSPniR4148YpHNrvK0xgN" is the name of the node
             window.location.reload(false)
         }
     }

@@ -9,7 +9,7 @@ import './fonts/pixellari/Pixellari.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId={process.env.REACT_APP_MORALIS_APP_ID} serverUrl={process.env.REACT_APP_MORALIS_SERVER_URL}>
+    <MoralisProvider appId='fGasuAdAzKAwcd1NmQ6MjxMBDpEh8frbuJWpxSVq' serverUrl='https://as7gs0ed52qy.usemoralis.com:2053/server'>
       <App />
     </MoralisProvider>
   </React.StrictMode >,
