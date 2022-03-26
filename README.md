@@ -12,7 +12,7 @@ User can Login(or Sign Up) using their [***MetaMask wallet***](https://metamask.
 ![Sign Up Page-1](https://i.postimg.cc/yYZzCYKs/Screenshot-882.png)
 ![Sign Up Page-2](https://i.postimg.cc/RZ15qsqY/Screenshot-887.png)
 
-You can chat with your friends freely, without worrying that someone might be spying on your personal messages, because as this is a peer-to-peer communication!!
+You can chat with your friends freely, without worrying that someone might be spying on your personal messages, as this is a peer-to-peer communication!!
 
 ![Chat Image-1](https://i.postimg.cc/52r748Sr/Screenshot-888.png)
 ![Chat Image-1](https://i.postimg.cc/2S1GKVN7/Screenshot-889.png)
