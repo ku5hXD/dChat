@@ -46,7 +46,7 @@ export function AuthProvider({ children }) {
                     let k = 0;
                     for (let i = 0; i < response.data.length; i++) {
 
-                        if (response.data[i].authData.moralisEth.id === account) {
+                        if (response.data[i].authData?.moralisEth.id === account) {
                             callback(true)
                             k = 0;
                             break;
